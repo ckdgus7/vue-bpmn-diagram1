@@ -1,0 +1,47 @@
+{
+  "name": "vue-properties-panel-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@bpmn-io/properties-panel": "0.13.1",
+    "@vue/cli-plugin-babel": "4.1.1",
+    "bpmn-js": "9.0.2",
+    "bpmn-js-properties-panel": "1.0.0-alpha.5",
+    "bpmn-moddle": "7.1.2",
+    "diagram-js": "8.1.2",
+    "preact": "10.7.1",
+    "vue": "^2.6.11",
+    "vue-loader": "17.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "4.1.1",
+    "@vue/cli-service": "4.1.1",
+    "vue-template-compiler": "^2.6.11",
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": ["plugin:vue/essential", "eslint:recommended"],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "keywords": [],
+  "description": "bpmn-js custom estension properties panel"
+}
